@@ -1,0 +1,6 @@
+I had no gcc so I looked for git
+git-upload-pack
+git-upload-archive
+git-shell
+git-receive-pack
+git

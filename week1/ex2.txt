@@ -1,0 +1,45 @@
+    1  ls
+    2  cd ~
+    3  ls
+    4  ls -h
+    5  ls --help
+    6  cd C
+    7  cd :C
+    8  cd C
+    9  cd /C
+   10  cd
+   11  ls
+   12  cd ~/:C
+   13  cd ..
+   14  cd :C
+   15  cd C
+   16  ls
+   17  ls usr
+   18  ls usr/bin
+   19  ls usr/bin | grep gcc | -r >ex1
+   20  cd
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd usr
+   25  ls
+   26  cd games
+   27  ls
+   28  cd ..
+   29  cd ~
+   30  ls
+   31  ls /usr/bin | grep gcc | sort -r >ex1.txt
+   32  ls
+   33  cat ex1.txt 
+   34  ls /usr/bin
+   35  ls /usr/bin | grep gcc | sort -r
+   36* 
+   37  ls /usr/bin
+   38  ls /usr/bin | grep git | sort -r
+   39  ls /usr/bin | grep gcc | sort -r >ex1.txt
+   40  cat ex1.txt
+   41  nano ex1.txt
+   42  ls /usr/bin | grep git | sort -r >ex1.txt
+   43  nano ex1.txt
+   44  history
+   45  history >ex2.txt
