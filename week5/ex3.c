@@ -7,6 +7,7 @@
 char buffer[N];
 int count = 0;
 int working = 0;
+//without gloabal variable 'working' segmnetation fault occures right away when threads try to print content of the buffer
 
 void *consumer(void *arg){
     printf("consumer is alive!\n");
