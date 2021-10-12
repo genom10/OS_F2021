@@ -1,0 +1,1 @@
+physical address is the address of the memory cell in the RAM, while virtual address refers to a paged address, which in turn refers to some address in physical memory.
