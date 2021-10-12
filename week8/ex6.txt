@@ -1,0 +1,3 @@
+first 3 bits are used to indicate the page, while other 13 are used to indicate place on that page.
+13 bits are used for specifying place on the page because 2^13=8192 (the number of bytes on the page)
+3 bits are used to indicate the page because the length of the virtual addres is 16 bit and 13 of them are used for to indicate place on the page
