@@ -1,0 +1,1 @@
+In input2.txt all of the pages were accesed in short period of time. Due to that the page was not replaced by the time it was accesed again.
