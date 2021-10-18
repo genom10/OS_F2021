@@ -21,14 +21,15 @@ int main()
     scanf("%i", &n);
     pages = malloc(n*sizeof(page));
     for (int i = 0; i < n; i++){
-        pages[i].age = 0;
+       pages[i].id = -1; 
+       pages[i].age = 0;
     }
     
     int misses = 0;
     int hits=0;
     FILE * inp = fopen("input.txt", "r");
-    int request;
-    while (fscanf(inp, "%i", &request) != EOF){
+    unsigned short request;
+    while (fscanf(inp, "%hu", &request) != EOF){
         unsigned short minAge = -1;
         unsigned short minAgeN = -1;
         int pageFault = 1;
