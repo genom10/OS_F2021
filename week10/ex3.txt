@@ -1,0 +1,6 @@
+-rw-r--r-- 1 genom10 genom10 16 Oct 26 23:46 _ex3.txt
+-rwxr--rwx 1 genom10 genom10 16 Oct 26 23:46 _ex3.txt
+-rwxrwxrwx 1 genom10 genom10 16 Oct 26 23:46 _ex3.txt
+660 means rw-rw---
+775 means rwxrwxr-x
+777 means rwxrwxrwx
